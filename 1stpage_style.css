@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(65, 65, 65);
+}
+
+#profile_pic{
+    width: 500px;
+    height: auto;
+}
+
+nav .container-fluid{
+    background-color:#131a24 ;
+    padding-right: 2rem;
+
+}
+.menu{
+    justify-content: flex-end;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    
+}
+li{
+    justify-content: space-around;
+    padding: 10px;
+    color: gray;
+    text-align: right;
+    list-style-type: none;
+}
+
+a{
+    color:#d0c7b8;
+    font-family: "Oleo Script", system-ui;
+    text-underline-offset: none;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding-right: 4rem;
+    font-weight: 500;
+    
+}
+a:hover{
+    color: #b5bdbd;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+#profile_section{
+    margin: 0;
+    padding: 0;
+    background-color: #232f3e ;
+    padding-bottom: 10rem;
+
+}
+
+
+.intro{
+    font-size: 3.5rem;
+    font-family: "Courgette", cursive;
+    color:antiquewhite;
+}
+.discription{
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    font-family: "Dosis", sans-serif;
+    color:antiquewhite;  
+
+}
+
+
+.sub_title{
+    font-size: 9rem;
+    font-family: "Courgette", cursive;
+    display: flex;
+    justify-content: center;
+    color:bisque;
+}
+
+
+.skill_title{
+    font-size: 2.5rem;
+    font-family: "Courgette", cursive;
+    color:antiquewhite;
+}
+
+
+.pic{
+    justify-content: center;
+    margin: 1rem;
+    width: 85%;
+    height: auto;
+
+}
+#skill{
+    background-color: #131a24;
+}
+.section{
+    padding: 15rem;
+}
+#skill-item{
+    display: flex;
+    justify-content: left;
+    
+}
+.row{
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.col-sm{
+    justify-content: left;
+}
+.skill-space{
+    margin-top: 10rem;
+}
+
+
